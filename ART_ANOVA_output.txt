@@ -1,0 +1,24 @@
+Analysis of Variance of Aligned Rank Transformed Data
+
+Table Type: Anova Table (Type III tests) 
+Model: No Repeated Measures (lm)
+Response: art(`Outcome Shear bond strength`)
+
+                                       Df Df.res  F value
+1 Bracket_type                          1     72 218.2852
+2 Surface_treatment                     1     72 160.6084
+3 Aging                                 1     72  44.7342
+4 Bracket_type:Surface_treatment        1     72   1.0444
+5 Bracket_type:Aging                    1     72   1.4227
+6 Surface_treatment:Aging               1     72   3.7680
+7 Bracket_type:Surface_treatment:Aging  1     72   1.0261
+                                           Pr(>F)    
+1 Bracket_type                         < 2.22e-16 ***
+2 Surface_treatment                    < 2.22e-16 ***
+3 Aging                                4.1295e-09 ***
+4 Bracket_type:Surface_treatment         0.310219    
+5 Bracket_type:Aging                     0.236871    
+6 Surface_treatment:Aging                0.056155   .
+7 Bracket_type:Surface_treatment:Aging   0.314459    
+---
+Signif. codes:   0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
